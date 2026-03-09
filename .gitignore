@@ -1,29 +1,30 @@
-# Python
 __pycache__/
 *.py[cod]
-*$py.class
 *.egg-info/
 *.egg
 dist/
 build/
 *.whl
 .eggs/
-
-# Virtual environments
+*.so
 .venv/
 venv/
 env/
-
-# IDE
-.idea/
-.vscode/
+.env
+.tox/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
 *.swp
 *.swo
-
-# OS
+*~
 .DS_Store
-Thumbs.db
+.idea/
+.vscode/
 
 # State files
 .qclaw_state.json
 .openclaw_demo_state.json
+
+# Demo (not part of the SDK)
+wechat_access_demo.py
